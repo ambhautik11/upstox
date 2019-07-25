@@ -1,0 +1,8 @@
+
+
+curl \
+-u SJLkbkvO203qdlfEJsj2y1Smb3q9rNvZ3qicd8wL:l8jj5a2zyd \
+-H 'Content-Type: application/json' \
+-H 'x-api-key: SJLkbkvO203qdlfEJsj2y1Smb3q9rNvZ3qicd8wL' \
+-d '{"code" : "43726e698fc6d5eb52a5eec31e54a31568968947", "grant_type" : "authorization_code", "redirect_uri" : "http://localhost.com"}' \
+-X POST 'https://api.upstox.com/index/oauth/token'
